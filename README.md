@@ -11,16 +11,7 @@ This repository is the official implementation of the [paper](https://arxiv.org/
 > [Mirco Theile](https://scholar.google.com/citations?user=88rL5TUAAAAJ&hl=en),
 > and [Marco Caccamo](https://scholar.google.com/citations?user=Jbo1MqwAAAAJ&hl=en&oi=ao).
 
-Under submission.
-
-Full code will be released after acceptance.
-
-<p align="center">
-  <img src="docs/cover.png" alt="Paper Cover" width="600" />
-  <br/>
-  <em>We test our proposed &alpha;-RPO method by learning competitive real-world racing behavior with 1:10-scaled autonomous Roboracer cars.<br>
-  Compared to classical RPL, &alpha;-RPO attenuates the contribution of the base policy during training, improving final performance while yielding a standalone neural policy at inference time for efficient deployment.</em>
-</p>
+Under submission. We will release the full code **after acceptance**.
 
 ## Table of contents
 - [Background](#background)
@@ -40,11 +31,7 @@ We design $\alpha$-RPO to integrate seamlessly with PPO, ensuring that the atten
 We evaluate $\alpha$-RPO by building a framework for 1:10-scaled autonomous racing around it.
 In both simulation and zero-shot real-world transfer to Roboracer cars, $\alpha$-RPO not only reduces system complexity but also improves driving performance compared to baselines---demonstrating its practicality for robotic deployment.
 
-<p align="center">
-  <video src="https://github.com/raphajaner/aRPO_racing/blob/main/docs/real_world_video.mp4?raw=true" width="600" controls></video>
-  <br/>
-  <em>The &alpha;-RPO agent autonomously navigating the real-world track.</em>
-</p>
+https://github.com/user-attachments/assets/a84dc168-21ec-43b8-985d-9905daef4995
 
 ## Install
 - We recommend to use a virtual environment for the installation:
